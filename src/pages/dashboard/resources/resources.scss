@@ -1,0 +1,15 @@
+.resource-table {
+    background-color: #eff4f9;
+    .ant-table {
+        border-radius: 20px;
+        background-color: #eff4f9;
+        thead[class*="ant-table-thead"] th {
+            background-color: #eff4f9 !important;
+            font-weight: bold;
+            border-bottom: 1.5px solid #d7dfef !important;
+        }
+        .ant-table-tbody>tr>td {
+            border-bottom: 1.5px solid #d7dfef !important;
+        }
+    }
+}

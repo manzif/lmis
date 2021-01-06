@@ -1,0 +1,47 @@
+
+.employmentChart {
+    margin-right: 100px;
+
+    .employmentChartTitle {
+        h1 {
+            font-family: Gilroy;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.25;
+            text-align: left;
+            color: #354753;
+        }
+
+        p {
+            font-size: 12px;
+            font-weight: bold;
+            color: #a4afb7;
+        }
+    }
+
+    .employmentChartButton {
+        text-align: right;
+        button {
+            border-radius: 20px;
+            border: solid 1px #a4afb7;
+            background-color: #ffffff;
+        }
+    }
+
+    .footerText {
+        font-size: 13px;
+        font-weight: 300;
+        color: #232948;;
+    }
+
+    .collumnChart {
+        background-color: #eff4f9;
+
+        .collumnChartTitle {
+            margin: 8px 10px 0px 10px;
+        }
+        #row {
+            width: 90% !important;
+        }
+    }
+}

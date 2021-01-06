@@ -1,0 +1,42 @@
+.register-modal {
+    .ant-modal-content {
+        height: auto;
+        padding: 0 30px;
+        .ant-modal-body {
+            padding: 24px 24px 0 24px;
+            .title {
+                font-size: 32px;
+                font-weight: bold;
+                line-height: 1.24;
+                text-align: center;
+                color: #232948;
+                margin-top: 60px;
+            }
+            .register-form {
+                .input {
+                    border-radius: 3px;
+                    padding: 10px 11px;
+                }
+            }
+        }
+        .ant-modal-footer {
+            border-top: none;
+            text-align: center;
+            .ant-btn-primary {
+                font-weight: bold;
+                margin-left: 0;
+                background-color: #1d84c9;
+                border-color: #1d84c9;
+                padding: 4px 100px;
+                height: 45px;
+                border-radius: 25px;
+            }
+            .login-text {
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 1.36;
+                padding-top: 12px;
+            }
+        }
+    }
+}

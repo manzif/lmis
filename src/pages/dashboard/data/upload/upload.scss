@@ -1,0 +1,54 @@
+
+.uploadContainer {
+    margin: 0 100px 0 60px;
+    .buttonSave {
+        color: #1d84c9;
+        background-color: white;
+        border-color: #1d84c9;
+        border-radius: 20px;
+        margin-top: 5px; 
+    }
+
+    .buttonCancel {
+        color: #a4afb7;
+        background-color: white;
+        border-color: #a4afb7;
+        border-radius: 20px;
+        margin-right: 10px; 
+        margin-top: 5px; 
+    }
+
+    .upload-dragger {
+        background-color: #eff4f9 !important;
+        height: 300px;
+        border: solid 1px #d7dfef;
+        border-radius: 20px;
+    }
+
+    Form Input {
+        background-color: #eff4f9;
+        border-radius: 20px;
+    }
+
+    Form {
+        margin-right: 30px;
+    }
+    Form TextArea {
+        background-color: #eff4f9;
+        border-radius: 20px;
+    }
+    Form select {
+        background-color: #eff4f9;
+        border-radius: 20px;
+        width: 100%;
+        color: #a4afb7;
+        font-weight: 500;
+        border: 1px solid #d9d9d9;
+        padding: 4px 11px;
+        outline: none;
+
+        option {
+          outline: none;  
+        }
+    }
+}

@@ -1,0 +1,258 @@
+// overall dashboard home css
+
+.container-home {
+   margin: 30px 100px 30px 100px;
+}
+// welcme message at the Dashboard home
+.container-welcome {
+    background-color: #eff4f9;
+    padding: 40px 30px; 
+    border: 2px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+    h1 {
+        font-weight: bold;
+    }
+    .welcomeButton {
+        text-align: right;
+        padding-top: 15px;
+    }
+}
+
+
+// title and button css
+.container-title-button {
+    margin-bottom: 15px;
+    h1 {
+        font-weight: bold;
+    }
+
+    .buttonClass {
+        text-align: right;
+
+        button {
+        border-radius: 20px;
+        border: solid 1px #a4afb7;
+        background-color: #ffffff;
+    }
+    }
+}
+
+
+// figures
+.figures-card {
+    background-color: #eff4f9 !important;
+    padding: 0;
+    border-radius: 6px;
+
+        .date {
+            font-size: 11px; 
+            font-weight: bold;
+            color: #9fb0d3;
+            text-align: center;
+        }
+        .icon {
+            text-align: right;
+            color: #9fb0d3;
+        }
+        span.circle {
+            background-color: #1d84c9;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+
+                .stroke-transparent {
+                    -webkit-text-stroke: 1px #000;
+                    -webkit-text-fill-color: transparent;
+                }
+        }
+        span.title {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 1.28;
+            letter-spacing: 0.47px;
+            color: #555c7d;
+        }
+        span.number {
+            font-size: 15px;
+            color: #1d84c9;
+            text-align: center;
+            font-weight: bold;
+        }
+        .percentageClass {
+            text-align: right;
+
+            span.percentage {
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1.92;
+            color: #03c779;
+        }
+        }
+        .figures-container-middle {
+            span.title {
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 1.28;
+                letter-spacing: 0.47px;
+                color: #555c7d;
+            }
+            span.circle {
+                background-color: #1d84c9;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 100px;
+                vertical-align: middle;
+                padding: 10px;
+
+                .stroke-transparent {
+                    -webkit-text-stroke: 1px #000;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+}
+
+//dashboard tables 
+
+.tableTitle {
+    margin: 0 10px;
+    p {
+        color: #67758d;
+        font-family: CircularStd;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        text-align: left;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+    }
+    .tableIcon {
+        text-align: right;
+        color: #9fb0d3;
+    }
+}
+.tableFooter {
+    margin: 12px 10px 0 10px;
+    p {
+        font-family: CircularStd;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        text-align: left;
+        color: #97a4ba;
+    }
+    .tableFooterButton {
+        text-align: right;
+    }
+}
+
+//Dashboard labour 
+
+.labour-card {
+    padding: 0;
+    border-radius: 6px;
+    background-color: #eff4f9 !important;
+    .labour-icon {
+        margin-top: 0;
+        text-align: right;
+        color: #9fb0d3;
+    }
+
+    .buttonAnalysis {
+        text-align: right;
+    }
+    .buttonData {
+        text-align: center;
+
+        button {
+            color: #1d84c9;
+            padding: 0px 15px;
+            border-radius: 5px;
+            border: solid 1px #2653eb;
+            background-color: #ffffff;
+        }
+    }
+
+    span.circle {
+        background-color: #1d84c9;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px;
+
+            .stroke-transparent {
+                -webkit-text-stroke: 1px #000;
+                -webkit-text-fill-color: transparent;
+            }
+    }
+    span.title {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: 0.47px;
+        color: #555c7d;
+    }
+    span.number {
+            font-size: 15px;
+            color: #1d84c9;
+            text-align: center;
+            font-weight: bold;
+        }
+        .percentageClass {
+            text-align: right;
+
+            span.percentage {
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1.92;
+            color: #03c779;
+        }
+    }
+    .figure-title {
+        margin-top: 4px;
+        span {
+            font-family: Gilroy;
+            font-size: 15px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: 0.47px;
+            text-align: left;
+            color: #555c7d;
+        }
+        p {
+            font-size: 11px; 
+            font-weight: bold;
+            color: #9fb0d3;
+        }
+    }
+}
+
+// the start of media query for the home dashboard
+
+@media screen and (max-width: 768px) {
+    .container-home {
+
+        //defining of the margin on the dashboard home
+        margin: 0;
+        span.circle {
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+        }
+    }
+}

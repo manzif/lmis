@@ -1,0 +1,60 @@
+.main-footer {
+    width: 100%;
+    color: #f1f4fa;
+    font-family: 'Nunito', sans-serif;
+    bottom: 0;
+    .top {
+        height: 302px;
+        padding: 58px 225px 0.1px 20.6px;
+        background-color: #232948;
+        h4 {
+            font-size: 24px;
+            font-weight: normal;
+            line-height: 1.67;
+            color: #f1f4fa;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            a {
+                color: inherit;
+                margin: 5px 0;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .icons {
+            .icon {
+                margin-right: 5px;
+                font-size: 22px;
+            }
+        }
+    }
+    .bottom {
+        height: 94px;
+        padding: 30px 30px 40px 72px;
+        border: solid 1px #707070;
+        background-color: #555c7d;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .copyright {
+            font-size: 16px;
+            line-height: 1.4;
+            float: left;
+        }
+        .nav {
+            a {
+                padding: 0 40px;
+                color: inherit;
+                font-size: 16px;
+                line-height: 1.4;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.forgot {
+    text-align: center;
+    .title-heading {
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.24;
+        letter-spacing: normal;
+        color: #232948;
+    }
+    .sub-text {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #5e7c8d;
+        text-align: center;
+    }
+    .input {
+        border-radius: 3px;
+        padding: 10px 11px;
+    }
+    .submit-btn {
+        border-radius: 20px;
+        background-color: #1d84c9;
+        font-weight: bold;
+        padding: 8px 70px;
+        height: auto !important;
+    }
+    .cancel-btn {
+        font-size: 18px;
+        line-height: 1.36;
+        letter-spacing: normal;
+        color: #1d84c9;
+    }
+}

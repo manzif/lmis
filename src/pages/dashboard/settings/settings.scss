@@ -1,0 +1,47 @@
+
+// overall dashoboard settings
+
+.dashboardSettings {
+    margin: 0px 40px;
+
+    .settings-users {
+        background-color: #eff4f9 !important;
+    }
+
+    .userRoles-container {
+        
+        .addRolesButton {
+            background-color: #ffffff;
+            border-radius: 15px;
+            border: solid 1px #1d84c9;
+            color: #1d84c9;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .addRoleTitle {
+            font-size: 15px;
+            font-weight: bold;
+            color: #232948;
+        }
+
+        .userPermissionCard {
+            background-color: #eff4f9 !important;
+            margin: 0 20px;
+            padding: 0 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dashboardSettings {
+        //defining of the margin on the dashboard setting
+        margin: 0;
+    }
+    .userRoles-container {
+
+        .userPermissionCard {
+            margin: 30px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+    .layout-wrapper {
+        .header {
+            padding: 0 !important;
+            background-color: #1d84c9 !important;
+            .logo {
+                float: left;
+                width: 120px;
+                height: 31px;
+                margin: 16px 0 16px 24px;
+                background: rgba(255, 255, 255, 0.3);
+            }
+            .ant-menu-dark {
+                background-color: #1d84c9 !important;
+            }
+            .menuCon {
+                background-color: #1d84c9 !important;
+            }
+            .menuCon .leftMenu {
+                float: left;
+                }
+
+                .menuCon .rightMenu {
+                float: right;
+            }
+        }
+        .admin-layout {
+            min-height: calc(100vh - 64px) !important;
+            .sidebar-nav {
+                height: 100%;
+                background-color: #eff4f9 !important;
+            }
+        }
+    }
+    
+    .ant-row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    // .logo {
+    //     float: right;
+    //     margin: 16px 0 16px 24px;
+    // }

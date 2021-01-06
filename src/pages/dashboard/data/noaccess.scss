@@ -1,0 +1,21 @@
+
+.noAccess {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #eff4f9;
+  background-color: #eff4f9 !important;
+  text-align: center;
+  border-radius: 10px;
+  padding: 60px 100px;
+
+  .noaccessIcon {
+      color: red;
+      margin-bottom: 30px;
+  }
+
+  .noaccessTitle {
+      margin-bottom: 30px;
+  }
+}
